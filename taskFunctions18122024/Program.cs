@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("===========================================SHAHD EISSA================================================");
-Console.WriteLine("===========================================TASK 5================================================");
+Console.WriteLine("===========================================TASK 1================================================");
 
 //Task 1
 #region task 1
@@ -29,6 +29,34 @@ double width = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("enter height: ");
 double height = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine(volume(length, width, height));
+#endregion
+
+#region bonustask2
+//method overloading means a set of functions (unlimited) having the same name but different number of parameters
+//int methodOverLoading (int a, int b){
+//    return a + b;
+//}
+//int methodOverLoading(int a, int b, int c){
+//    return a + b + c;
+//}
+//int methodOverLoading(int a, int b, int c, int d)//and so on
+//{
+//return a + b + c + d;
+
+//}
+
+//Console.WriteLine("enter a: ");
+//int a = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("enter b: ");
+//int b = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine(methodOverLoading(a, b));
+//Console.WriteLine("enter c: ");
+//int c = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine(methodOverLoading(a, b, c));
+//Console.WriteLine("enter d: ");
+//int d = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine(methodOverLoading(a, b, c, d));
+
 #endregion
 
 Console.WriteLine("===========================================TASK 3================================================");
@@ -82,7 +110,7 @@ string testLetter(char tested)
 
 }
 
-/*         SOLUTION WITH BONUS WITH HELP
+/*             SOLUTION WITH BONUS WITH HELP
 string testLetter(char tested) {
 
     string vowel = "aoieouAOIEU";
@@ -107,7 +135,7 @@ string testLetter(char tested) {
 }*/
 
 
-/*             SOLUTION 2 WITHOUT BONUS WITHOUT HELP
+/*            SOLUTION 2 WITHOUT BONUS WITHOUT HELP
 char testLetter (char tested){
 if (tested == 'a' || tested == 'o' || tested == 'u' || tested == 'i' || tested == 'e' || tested == 'A' || tested == 'O' || tested == 'U' || tested == 'I' || tested == 'E') {
         return 'v';  
